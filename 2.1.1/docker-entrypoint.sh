@@ -12,6 +12,7 @@
 # the License.
 
 set -e
+set -x
 
 # first arg is `-something` or `+something`
 if [ "${1#-}" != "$1" ] || [ "${1#+}" != "$1" ]; then
